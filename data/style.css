@@ -1,0 +1,13 @@
+.shortcutbox {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 13px;
+}
+
+window {
+    background: url("./assets/bg.jpg")
+}
+
+label {
+    color: white;
+}
