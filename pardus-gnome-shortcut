@@ -1,0 +1,2 @@
+#!/bin/bash
+exec python3 /usr/share/pardus/pardus-gnome-shortcut/src/Main.py

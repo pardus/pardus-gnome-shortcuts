@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema id="org.pardus.pardus-gnome-greeter" path="/org/pardus/pardus-gnome-greeter/">
-      <key name="layout-name" type="s">
-          <default>"set_2"</default>
-          <summary>Gnome Layout</summary>
-          <description>Pardus Gnome Layout</description>
+  <schema id="org.gnome.settings-daemon.plugins.media-keys.custom-keybindings" path="/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/">
+      <key name="pardus-test">
+          <binding>'<Control><Alt>t'</binding>
+          <command>'firefox'</command>
+          <name>'Firefox Launch'</name>
       </key>
   </schema>
 </schemalist>

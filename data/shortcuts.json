@@ -1,50 +1,14 @@
-[
-    {
-        "label": "Screenshots",
+{
+    "Launchers": {
+        "path": "/usr/share/gnome-control-center/keybindings/01-launchers.xml",
         "datas": [
-            {
-                "name": "Screenshot of Desktop",
-                "keys": [
-                    "Prt Scrn"
-                ]
-            },
-            {
-                "name": "Screenshot of Window",
-                "keys": [
-                    "Alt",
-                    "Prt Scrn"
-                ]
-            },
-            {
-                "name": "Screenshot of Area",
-                "keys": [
-                    "Shift",
-                    "Prt Scrn"
-                ]
-            }
-        ]
-    },
-    {
-        "label": "Screencast",
-        "datas": [
-            {
-                "name": "Start Recording of Screen",
-                "keys": [
-                    "Ctrl",
-                    "Alt",
-                    "Shift",
-                    "R"
-                ]
-            },
-            {
-                "name": "Stop Recording of Screen",
-                "keys": [
-                    "Ctrl",
-                    "Alt",
-                    "Shift",
-                    "R"
-                ]
-            }
+            "help",
+            "control-center",
+            "calculator",
+            "email",
+            "www",
+            "home",
+            "search"
         ]
     }
-]
+}

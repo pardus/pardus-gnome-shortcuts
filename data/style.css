@@ -5,7 +5,8 @@
 }
 
 window {
-    background: url("./assets/bg.jpg")
+    background: url("./assets/bg.avif");
+    background-size: cover;
 }
 
 label {

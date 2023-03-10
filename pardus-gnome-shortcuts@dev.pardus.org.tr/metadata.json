@@ -1,0 +1,8 @@
+{
+  "name": "Pardus Gnome Shortcuts",
+  "description": "Show / Hide Pardus Gnome Shortcuts",
+  "uuid": "pardus-gnome-shortcuts@dev.pardus.org.tr",
+  "shell-version": [
+    "43"
+  ]
+}
