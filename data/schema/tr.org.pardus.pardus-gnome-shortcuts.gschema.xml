@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.pardus.pardus-gnome-shortcuts" path="/org/pardus/pardus-gnome-shortcuts/">
+       <key name="first-start" type="b">
+      <default>false</default>
+      <summary>First Start</summary>
+      <description>A check for application if it started before</description>
+    </key>
+  </schema>
+</schemalist>
