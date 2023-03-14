@@ -32,11 +32,10 @@ class Keybindings:
         
         for info in infos:
             schema_path = schema+":"+path+id+"/"
-            print(schema_path)
             cmd = ["gsettings", "set",schema_path, info["key"],info["value"]]
-            print(cmd)
-
-            subprocess.run(cmd)
+            response = subprocess.run(cmd)
+            print(response)
+            
             
         
             
