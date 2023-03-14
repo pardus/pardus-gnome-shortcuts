@@ -1,4 +1,7 @@
 import subprocess
+import gi
+gi.require_version("Gtk","4.0")
+gi.require_version("Gio","2.0")
 from gi.repository import GLib,Gio
 class Keybindings:
     def get_keybindings(self):
@@ -31,6 +34,7 @@ class Keybindings:
             schema_path = schema+":"+path+id+"/"
             print(schema_path)
             cmd = ["gsettings", "set",schema_path, info["key"],info["value"]]
+            print(cmd)
 
             subprocess.run(cmd)
             
