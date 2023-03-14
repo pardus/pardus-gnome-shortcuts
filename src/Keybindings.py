@@ -28,7 +28,9 @@ class Keybindings:
         path = "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/"
         
         for info in infos:
-            cmd = ["gsettings", "set",schema+":"+path+id+"/", info["key"],info["value"]]
+            schema_path = schema+":"+path+id+"/"
+            print(schema_path)
+            cmd = ["gsettings", "set",schema_path, info["key"],info["value"]]
 
             subprocess.run(cmd)
             
@@ -39,11 +41,13 @@ class Keybindings:
         variant = settings.get_value(custom_schema_key)
 
         keybinding_list = list(variant.unpack())
-        new_key = """{path}{id}""".format(path=path,id=id)
+        print(keybinding_list)
+        new_key = """{path}{id}/""".format(path=path,id=id)
         
         if new_key not in keybinding_list:
             keybinding_list.append(new_key)
         
         new_variant = GLib.Variant.new_strv(keybinding_list)
         settings.set_value(custom_schema_key,new_variant)
-        
+        settings.apply()
+        settings.sync()
