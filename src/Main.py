@@ -13,7 +13,7 @@ class Application(Gtk.Application):
     def on_activate(self, app):
         if not self.main_window:
             from MainWindow import MainWindow
-            self.main_window = MainWindow().main_window
+            self.main_window = MainWindow().ui_main_window
             self.main_window.set_application(self)
             self.main_window.present()
 

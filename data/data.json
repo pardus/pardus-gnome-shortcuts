@@ -1,0 +1,118 @@
+{
+    "Launchers": {
+        "schema": "org.gnome.settings-daemon.plugins.media-keys",
+        "datas": [
+            {
+                "name": "Control Center",
+                "key": "control-center"
+            },
+            {
+                "name": "Calculator",
+                "key": "calculator"
+            },
+            {
+                "name": "Browser",
+                "key": "www"
+            },
+            {
+                "name": "File Manager",
+                "key": "home"
+            }
+        ]
+    },
+    "Screenshot Tool": {
+        "schema": "org.gnome.shell.keybindings",
+        "datas": [
+            {
+                "name": "Take Screenshot",
+                "key": "screenshot"
+            },
+            {
+                "name": "Take Screenshot of Window",
+                "key": "screenshot-window"
+            },
+            {
+                "name": "Take Screenshot Interactively",
+                "key": "show-screenshot-ui"
+            },
+            {
+                "name": "Record Screencast Interactively",
+                "key": "show-screen-recording-ui"
+            }
+        ]
+    },
+    "System": {
+        "schema": "org.gnome.shell.keybindings",
+        "datas": [
+            {
+                "name": "Lock Screen",
+                "key": "screensaver",
+                "schema": "org.gnome.settings-daemon.plugins.media-keys"
+            },
+            {
+                "name": "Overview",
+                "key": "toggle-overview"
+            },
+            {
+                "name": "Applications",
+                "key": "toggle-application-view"
+            },
+            {
+                "name": "Switch Applications",
+                "key": "switch-applications",
+                "schema": "org.gnome.desktop.wm.keybindings"
+            },
+            {
+                "name": "Close Applications",
+                "key": "close",
+                "schema": "org.gnome.desktop.wm.keybindings"
+            },
+            {
+                "name": "Maximize Applications",
+                "key": "maximize",
+                "schema": "org.gnome.desktop.wm.keybindings"
+            },
+            {
+                "name": "Minimize Applications",
+                "key": "minimize",
+                "schema": "org.gnome.desktop.wm.keybindings"
+            },
+            {
+                "name": "Unmaximize Applications",
+                "key": "unmaximize",
+                "schema": "org.gnome.desktop.wm.keybindings"
+            }
+        ]
+    },
+    "Workspace": {
+        "schema": "org.gnome.desktop.wm.keybindings",
+        "datas": [
+            {
+                "name": "Switch to Workspace Right",
+                "key": "switch-to-workspace-right"
+            },
+            {
+                "name": "Switch to Workspace Left",
+                "key": "switch-to-workspace-left"
+            },
+            {
+                "name": "Switch to Workspace Below",
+                "key": "switch-to-workspace-down"
+            },
+            {
+                "name": "Switch to Workspace Above",
+                "key": "switch-to-workspace-up"
+            }
+        ]
+    },
+    "Pardus": {
+        "schema": "org.gnome.desktop.wm.keybindings",
+        "custom": true,
+        "datas": [
+            {
+                "name": "Pardus Firefox Launcher",
+                "key": "pardus-firefox-launcher"
+            }
+        ]
+    }
+}

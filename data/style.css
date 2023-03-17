@@ -5,10 +5,27 @@
 }
 
 window {
-    background: url("./assets/bg.avif");
+    background: rgba(90, 34, 139, 1);
     background-size: cover;
+    border: 20px solid rgba(90, 34, 139, 0.7);
+    border-radius: 10px;
 }
+
+.mainbox {
+    border-radius: 10px;
+}
+
 
 label {
     color: white;
+}
+
+.title {
+    font-size: x-large
+}
+
+.box {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
 }

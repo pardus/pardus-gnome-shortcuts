@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-06 18:23+0300\n"
+"PO-Revision-Date: 2022-10-18 11:11+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+
+msgid "Launchers"
+msgstr "Başlatıcılar"
+
+msgid "Control Center"
+msgstr "Kontrol Merkezi"
+
+msgid "Calculator"
+msgstr "Hesap Makinesi"
+
+msgid "Browser"
+msgstr "Tarayıcı"
+
+msgid "File Manager"
+msgstr "Dosya Yöneticisi"
+
+msgid "Screenshot Tool"
+msgstr "Ekran Görüntüsü Aracı"
+
+msgid "Take Screenshot"
+msgstr "Ekran Görüntüsü Al"
+
+msgid "Take Screenshot of Window"
+msgstr "Pencerenin Ekran Görüntüsünü Al"
+
+msgid "Take Screenshot Interactively"
+msgstr "Etkileşimli Olarak Ekran Görüntüsünü Al"
+
+msgid "Record Screencast Interactively"
+msgstr "Etkileşimli Olarak Ekranı Kaydet"
+
+msgid "System"
+msgstr "Sistem"
+
+msgid "Lock Screen"
+msgstr "Ekranı Kilitle"
+
+msgid "Overview"
+msgstr "Genel Görünüm"
+
+msgid "Applications"
+msgstr "Uygulamalar"
+
+msgid "Workspace"
+msgstr "Çalışma Ortamı"
+
+msgid "Switch to Workspace Right"
+msgstr "Sağdaki Çalışma Ortamına Geç"
+
+msgid "Switch to Workspace Left"
+msgstr "Soldaki Çalışma Ortamına Geç"
+
+msgid "Switch to Workspace Below"
+msgstr "Alttaki Çalışma Ortamına Geç"
+
+msgid "Switch to Workspace Above"
+msgstr "Üstteki Çalışma Ortamına Geç"
