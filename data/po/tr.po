@@ -59,6 +59,21 @@ msgstr "Genel Görünüm"
 msgid "Applications"
 msgstr "Uygulamalar"
 
+msgid "Switch Applications"
+msgstr "Uygulamalar Arası Geçiş Yap"
+
+msgid "Close Applications"
+msgstr "Uygulamayı Kapat"
+
+msgid "Maximize Applications"
+msgstr "Uygulamayı Tam Ekran Yap"
+
+msgid "Minimize Applications"
+msgstr "Uygulamayı Simge Durumuna Küçült"
+
+msgid "Unmaximize Applications"
+msgstr "Uygulamayı Tam Ekrandan Çıkar"
+
 msgid "Workspace"
 msgstr "Çalışma Ortamı"
 

@@ -118,7 +118,6 @@ class MainWindow(Gtk.ApplicationWindow):
                     ui_keybinding_box = self.fun_create_box(horizontal=False)
                     key = data['key']
                     name = data['name']
-
                     if 'schema' in data.keys():
                         values = Keybindings.get_keybinding(data['schema'],key,custom)
                     else:
@@ -163,7 +162,7 @@ class MainWindow(Gtk.ApplicationWindow):
         box.set_valign(v_align)
         return box
 
-    def fun_create_label(self, text="", markup="", css=[], h_align=Gtk.Align(0)):
+    def fun_create_label(self, text="", markup="", css=[], h_align=Gtk.Align(1)):
         
         label = Gtk.Label()
 

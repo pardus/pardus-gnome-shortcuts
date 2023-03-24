@@ -5,9 +5,9 @@
 }
 
 window {
-    background: rgba(90, 34, 139, 1);
+    background: rgba(90, 34, 139, 0.95);
     background-size: cover;
-    border: 20px solid rgba(90, 34, 139, 0.7);
+    border: 20px solid rgba(90, 34, 139, 0.5);
     border-radius: 10px;
 }
 

@@ -66,6 +66,24 @@ msgstr ""
 msgid "Applications"
 msgstr ""
 
+msgid "Switch Applications"
+msgstr ""
+
+msgid "Close Applications"
+msgstr ""
+
+msgid "Maximize Applications"
+msgstr ""
+
+msgid "Minimize Applications"
+msgstr ""
+
+msgid "Unmaximize Applications"
+msgstr ""
+
+
+
+
 
 
 
