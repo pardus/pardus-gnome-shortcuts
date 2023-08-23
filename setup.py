@@ -34,10 +34,6 @@ if os.path.exists(changelog):
 
 
 data_files = [
-    ("/usr/share/glib-2.0/data/schemas/", [
-    		"data/schema/tr.org.pardus.pardus-gnome-shortcut.gschema.xml"
-    	]
-    ),
     ("/usr/share/applications/", [
     		"tr.org.pardus.pardus-gnome-shortcut.desktop"
     	]
