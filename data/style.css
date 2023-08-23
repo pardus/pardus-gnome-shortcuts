@@ -5,25 +5,27 @@
 }
 
 window {
-  background: transparent;
+    background: transparent;
 }
 
 .mainbox {
-    background: rgba(189, 195, 199,0.95);
+    background: rgba(0,0,0, 0.5);
     background-size: cover;
-    border: 20px solid rgba(128, 128, 128, 0.5);
-    border-radius: 5px;
+    border-radius: 20px;
+    color:white;
+    padding:20px
 
 }
-.mainbox::before{
-    background: linear-gradient(to bottom, gray, lightgray);
-}
-
 
 .title {
     font-size: x-large
 }
 
 .box {
-    padding: 10px;
+    padding:10px 20px;
+}
+button{
+    background: rgba(0,0,0, 0.5);
+    color: white;
+
 }

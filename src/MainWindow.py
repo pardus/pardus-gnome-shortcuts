@@ -72,9 +72,12 @@ class MainWindow(Gtk.ApplicationWindow):
         self.ui_main_window.set_name("window")
         self.ui_main_window.set_decorated(False)
 
-        self.close_btn = Ptk.Button(label="X", css=["circular"])
-        self.close_btn_box = Ptk.Box(children=[self.close_btn])
-        self.app_box = Ptk.Box(
+        self.ui_close_button = Ptk.Button(label="✖", css=["circular"])
+        self.ui_close_button.connect("clicked",self.on_close_button_clicked)
+
+
+        self.ui_close_button_box = Ptk.Box(children=[self.ui_close_button])
+        self.ui_app_box = Ptk.Box(
             css=["mainbox", "card"],
             hexpand=True,
             vexpand=True,
@@ -88,7 +91,7 @@ class MainWindow(Gtk.ApplicationWindow):
         )
         self.ui_main_box = Ptk.Box(
             orientation="vertical",
-            children=[self.close_btn_box, self.app_box],
+            children=[self.ui_close_button_box, self.ui_app_box],
         )
         self.ui_main_window.set_child(self.ui_main_box)
 
@@ -131,8 +134,11 @@ class MainWindow(Gtk.ApplicationWindow):
                         ui_keybinding_box.append(ui_keybinding_text_label)
 
                 ui_shortcut_box.append(ui_keybinding_box)
-            self.app_box.append(ui_shortcut_box)
+        
+            self.ui_app_box.append(ui_shortcut_box)
 
+    def on_close_button_clicked(self,button):
+        self.ui_main_window.get_application().quit()
     def fun_get_keybinding(self, schema, key, is_custom):
         if is_custom:
             binding = [self.fun_get_custom_keybinding(key)[1:-1]]
