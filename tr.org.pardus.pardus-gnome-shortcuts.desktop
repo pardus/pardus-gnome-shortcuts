@@ -1,12 +1,14 @@
 [Desktop Entry]
-Name=Pardus Gnome Shortcuts
-Name[tr]=Pardus Gnome Kısayollar
-GenericName=Pardus Gnome Shortcuts
-Comment=Pardus Gnome Shortcuts
+Name=Pardus Shortcuts
+Name[tr]=Pardus Kısayollar
+GenericName=Pardus Shortcuts
+GenericName[tr]=Pardus Kısayollar
+Comment=Pardus Shortcuts
+Comment[tr]=Pardus Kısayollar
 Exec=pardus-gnome-shortcuts
 Icon=pardus-gnome-shortcuts
 Terminal=false
 Type=Application
 Categories=Settings;
 StartupNotify=true
-Keywords=Pardus, Pardus Gnome Shortcuts, Pardus Gnome Tweak
+Keywords=Pardus, Pardus Shortcuts, Pardus Gnome Shortcuts, Kısayollar, Pardus Kısayollar
