@@ -1,4 +1,4 @@
-Source: pardus-gnome-shortcut
+Source: pardus-gnome-shortcuts
 Section: utils
 Priority: optional
 Maintainer: Osman Coskun <osman.coskun@pardus.org.tr>
@@ -6,8 +6,9 @@ Build-Depends: debhelper (>= 12), python3, python3-setuptools
 Standards-Version: 0.0.1
 Homepage: https://github.com/pardus/pardus-gnome-shortcuts
 
-Package: pardus-gnome-shortcut
+Package: pardus-gnome-shortcuts
 Architecture: all
-Depends: ${misc:Depends}, 
+Depends: ${misc:Depends},
+         libpardus,
          python3 (>= 3.6)
-Description: Pardus Gnome Shortcut show or hide Pardus / Gnome Shortcuts
+Description: Pardus Gnome Shortcuts

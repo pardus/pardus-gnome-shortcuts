@@ -102,12 +102,8 @@ msgstr ""
 msgid "Switch to Workspace Above"
 msgstr ""
 
+msgid "Pardus Terminal Launcher"
+msgstr ""
 
-
-
-
-
-
-
-
-
+msgid "Pardus Software Launcher"
+msgstr ""

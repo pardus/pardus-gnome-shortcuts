@@ -3,10 +3,6 @@
         "schema": "org.gnome.settings-daemon.plugins.media-keys",
         "datas": [
             {
-                "name": "Control Center",
-                "key": "control-center"
-            },
-            {
                 "name": "Calculator",
                 "key": "calculator"
             },
@@ -110,8 +106,12 @@
         "custom": true,
         "datas": [
             {
-                "name": "Pardus Firefox Launcher",
-                "key": "pardus-firefox-launcher"
+                "name": "Pardus Terminal Launcher",
+                "key": "pardus-terminal-launcher"
+            },
+            {
+                "key": "pardus-software-launcher",
+                "name": "Pardus Software Launcher"
             }
         ]
     }

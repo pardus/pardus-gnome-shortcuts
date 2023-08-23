@@ -88,3 +88,10 @@ msgstr "Alttaki Çalışma Ortamına Geç"
 
 msgid "Switch to Workspace Above"
 msgstr "Üstteki Çalışma Ortamına Geç"
+
+
+msgid "Pardus Terminal Launcher"
+msgstr "Pardus Uçbirim Başlatıcı"
+
+msgid "Pardus Software Launcher"
+msgstr "Pardus Yazılım Merkezi Başlatıcı"
