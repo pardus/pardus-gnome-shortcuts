@@ -6,7 +6,7 @@ from gi.repository import Gtk
 class Application(Gtk.Application):
 
     def __init__(self, **kwargs):
-        super().__init__(**kwargs, application_id="tr.org.pardus.pardus-gnome-greeter")
+        super().__init__(**kwargs, application_id="tr.org.pardus.pardus-gnome-shortcuts")
         self.connect('activate', self.on_activate)
         self.main_window = None
 
