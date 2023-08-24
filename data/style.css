@@ -13,12 +13,12 @@ window {
     background-size: cover;
     border-radius: 20px;
     color:white;
-    padding:20px
+    padding:20px;
 
 }
 
 .title {
-    font-size: x-large
+    font-size: x-large;
 }
 
 .box {
