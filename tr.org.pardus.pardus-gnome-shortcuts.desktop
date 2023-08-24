@@ -11,4 +11,5 @@ Terminal=false
 Type=Application
 Categories=Settings;
 StartupNotify=true
-Keywords=Pardus, Pardus Shortcuts, Pardus Gnome Shortcuts, Kısayollar, Pardus Kısayollar
+Keywords=keyboard;key;
+Keywords[tr]=klavye;tuş;
