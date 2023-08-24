@@ -1,5 +1,31 @@
 pardus-gnome-shortcuts (0.0.1) unstable; urgency=medium
 
-  * Initial release
+  [ Fatih Altun ]
+  * Update debian standards
+  * Fix typo
+  * Update copyright
+  * Fix app id
 
- -- Osman Coskun <osman.coskun@pardus.org.tr>  Fri, 20 Jan 2023 13:19:20 +0300
+  [ Osman Coskun ]
+  * fix: app added to pardus category
+  * fix: app launcher moved to launchers
+  * fix: Turkish keywords added.
+  * fix: keywords changed
+  * tr version of some fields are added
+  * extension removed
+  * fix: missing translations and typos
+  * feat: switched to meson for building system. fix:typos
+  * feat: extension working logic changed.
+  * fix: style changed, variables are renamed
+  * feat: updated with Ptk. Removed schema and keybinding option
+  * latest version has been added
+  * variables and functions are fixed
+  * schemas compiled
+  * logic error fixed
+  * gi-version added
+  * gsettings changed
+  * keybindings added
+  * removed unnecessary files and folders
+  * initial commit
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Thu, 24 Aug 2023 21:47:54 +0300
