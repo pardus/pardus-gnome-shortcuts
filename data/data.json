@@ -13,6 +13,16 @@
             {
                 "name": "File Manager",
                 "key": "home"
+            },
+            {
+                "name": "Pardus Terminal Launcher",
+                "key": "pardus-terminal-launcher",
+                "custom": true
+            },
+            {
+                "name": "Pardus Software Launcher",
+                "key": "pardus-software-launcher",
+                "custom": true
             }
         ]
     },
@@ -98,20 +108,6 @@
             {
                 "name": "Switch to Workspace Above",
                 "key": "switch-to-workspace-up"
-            }
-        ]
-    },
-    "Pardus": {
-        "schema": "org.gnome.desktop.wm.keybindings",
-        "custom": true,
-        "datas": [
-            {
-                "name": "Pardus Terminal Launcher",
-                "key": "pardus-terminal-launcher"
-            },
-            {
-                "key": "pardus-software-launcher",
-                "name": "Pardus Software Launcher"
             }
         ]
     }

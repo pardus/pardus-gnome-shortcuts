@@ -73,8 +73,7 @@ class MainWindow(Gtk.ApplicationWindow):
         self.ui_main_window.set_decorated(False)
 
         self.ui_close_button = Ptk.Button(label="✖", css=["circular"])
-        self.ui_close_button.connect("clicked",self.on_close_button_clicked)
-
+        self.ui_close_button.connect("clicked", self.on_close_button_clicked)
 
         self.ui_close_button_box = Ptk.Box(children=[self.ui_close_button])
         self.ui_app_box = Ptk.Box(
@@ -111,15 +110,13 @@ class MainWindow(Gtk.ApplicationWindow):
             schema = self.datas[shortcut]["schema"]
             datas = self.datas[shortcut]["datas"]
 
-            if "custom" in self.datas[shortcut].keys():
-                custom = self.datas[shortcut]["custom"]
-            else:
-                custom = False
-
             for data in datas:
                 ui_keybinding_box = Ptk.Box(orientation="vertical")
                 key = data["key"]
                 name = data["name"]
+                custom = False
+                if "custom" in data.keys():
+                    custom = data["custom"]
                 if "schema" in data.keys():
                     values = self.fun_get_keybinding(data["schema"], key, custom)
                 else:
@@ -134,11 +131,12 @@ class MainWindow(Gtk.ApplicationWindow):
                         ui_keybinding_box.append(ui_keybinding_text_label)
 
                 ui_shortcut_box.append(ui_keybinding_box)
-        
+
             self.ui_app_box.append(ui_shortcut_box)
 
-    def on_close_button_clicked(self,button):
+    def on_close_button_clicked(self, button):
         self.ui_main_window.get_application().quit()
+
     def fun_get_keybinding(self, schema, key, is_custom):
         if is_custom:
             binding = [self.fun_get_custom_keybinding(key)[1:-1]]
