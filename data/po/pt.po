@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-06 18:23+0300\n"
+"PO-Revision-Date: 2023-08-28 23:46+0100\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"Language-Team: Portuguese <hugokarvalho@hotmail.com>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+
+msgid "Launchers"
+msgstr "Lançadores"
+
+msgid "Control Center"
+msgstr "Centro de Controlo"
+
+msgid "Calculator"
+msgstr "Calculadora"
+
+msgid "Browser"
+msgstr "Navegador"
+
+msgid "File Manager"
+msgstr "Gestor de ficheiros"
+
+msgid "Screenshot Tool"
+msgstr "Ferramenta de captura de ecrã"
+
+msgid "Take Screenshot"
+msgstr "Capturar ecrã"
+
+msgid "Take Screenshot of Window"
+msgstr "Tirar uma captura de ecrã da janela"
+
+msgid "Take Screenshot Interactively"
+msgstr "Tirar uma captura de ecrã de forma interativa"
+
+msgid "Record Screencast Interactively"
+msgstr "Gravar o ecrã de forma interativa"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "Lock Screen"
+msgstr "Bloquear o ecrã"
+
+msgid "Overview"
+msgstr "Visão geral"
+
+msgid "Applications"
+msgstr "Aplicações"
+
+msgid "Switch Applications"
+msgstr "Alternar entre aplicações"
+
+msgid "Close Applications"
+msgstr "Fechar aplicações"
+
+msgid "Maximize Applications"
+msgstr "Maximizar aplicações"
+
+msgid "Minimize Applications"
+msgstr "Minimizar aplicações"
+
+msgid "Unmaximize Applications"
+msgstr "Restaurar aplicações"
+
+msgid "Workspace"
+msgstr "Área de trabalho"
+
+msgid "Switch to Workspace Right"
+msgstr "Mudar para a área de trabalho à direita"
+
+msgid "Switch to Workspace Left"
+msgstr "Mudar para a área de trabalho à esquerda"
+
+msgid "Switch to Workspace Below"
+msgstr "Mudar para a área de trabalho abaixo"
+
+msgid "Switch to Workspace Above"
+msgstr "Mudar para a área de trabalho acima"
+
+msgid "Pardus Terminal Launcher"
+msgstr "Lançador de Terminal Pardus"
+
+msgid "Pardus Software Launcher"
+msgstr "Lançador de Software Pardus"
