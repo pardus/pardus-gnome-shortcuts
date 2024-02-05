@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-06 18:23+0300\n"
+"PO-Revision-Date: 2022-10-18 11:11+0300\n"
+"Last-Translator: Pedro Plasencia <programacion.en.esp@gmail.com>\n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+
+
+msgid "Launchers"
+msgstr "Lanzador"
+
+msgid "Control Center"
+msgstr "Centro de control"
+
+msgid "Calculator"
+msgstr "Calculadora"
+
+msgid "Browser"
+msgstr "Navegador"
+
+msgid "File Manager"
+msgstr "Gestor de archivos"
+
+msgid "Screenshot Tool"
+msgstr "Captura de pantalla"
+
+msgid "Take Screenshot"
+msgstr "Capturar pantalla"
+
+msgid "Take Screenshot of Window"
+msgstr "Tomar captura de ventana"
+
+msgid "Take Screenshot Interactively"
+msgstr "Captura de pantalla interactiva"
+
+msgid "Record Screencast Interactively"
+msgstr "Grabación de pantalla interactiva"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "Lock Screen"
+msgstr "Bloquear pantalla"
+
+msgid "Overview"
+msgstr "Ver todas las aplicaciones"
+
+msgid "Applications"
+msgstr "Aplicaciones"
+
+msgid "Switch Applications"
+msgstr "Cambiar entre aplicaciones"
+
+msgid "Close Applications"
+msgstr "Cerrar aplicaciones"
+
+msgid "Maximize Applications"
+msgstr "Maximizar aplicaciones"
+
+msgid "Minimize Applications"
+msgstr "Minimizar aplicaciones"
+
+msgid "Unmaximize Applications"
+msgstr "Salir de pantalla completa"
+
+msgid "Workspace"
+msgstr "Espacio de trabajo"
+
+msgid "Switch to Workspace Right"
+msgstr "Cambiar a espacio de trabajo derecho"
+
+msgid "Switch to Workspace Left"
+msgstr "Cambiar a espacio de trabajo izquierdo"
+
+msgid "Switch to Workspace Below"
+msgstr "Cambiar a espacio de trabajo inferior"
+
+msgid "Switch to Workspace Above"
+msgstr "Cambiar a espacio de trabajo superior"
+
+msgid "Pardus Terminal Launcher"
+msgstr "Lanzador de Terminal de Pardus"
+
+msgid "Pardus Software Launcher"
+msgstr "Lanzador de Software de Pardus"
