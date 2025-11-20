@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 import gi
 gi.require_version('Gtk', '4.0')
-from gi.repository import Gtk
+gi.require_version('Adw', '1')
+from gi.repository import Gtk, Adw
 
-class Application(Gtk.Application):
+class Application(Adw.Application):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs, application_id="tr.org.pardus.pardus-gnome-shortcuts")
@@ -13,8 +14,7 @@ class Application(Gtk.Application):
     def on_activate(self, app):
         if not self.main_window:
             from MainWindow import MainWindow
-            self.main_window = MainWindow().ui_main_window
-            self.main_window.set_application(self)
+            self.main_window = MainWindow(application=app)
             self.main_window.present()
 
 
