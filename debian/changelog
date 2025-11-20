@@ -1,3 +1,13 @@
+pardus-gnome-shortcuts (0.1.0) unstable; urgency=medium
+
+  [ Osman Coskun ]
+  * Update .gitignore to include additional Debian packaging files
+  * refactor(files): removed unused css file
+  * fix(deps): removed unusued dependency
+  * feat(app): changed logic, new 2 different ui mode.
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Thu, 20 Nov 2025 12:00:53 +0300
+
 pardus-gnome-shortcuts (0.0.2) unstable; urgency=medium
 
   [ Hugo Carvalho ]
