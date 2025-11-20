@@ -7,6 +7,16 @@ __pycache__/
 # C extensions
 *.so
 
+debian/.debhelper
+debian/pardus-gnome-shortcuts
+debian/pardus-gnome-shortcuts.substvars
+debian/pardus-gnome-shortcuts.postinst
+debian/pardus-gnome-shortcuts.postrm
+debian/pardus-gnome-shortcuts.preinst
+debian/pardus-gnome-shortcuts.prerm
+debhelper-build-stamp
+debian/files
+
 # Distribution / packaging
 .Python
 build/
