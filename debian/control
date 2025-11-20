@@ -9,7 +9,6 @@ Homepage: https://github.com/pardus/pardus-gnome-shortcuts
 Package: pardus-gnome-shortcuts
 Architecture: all
 Depends: ${misc:Depends},
-         libpardus,
          python3 (>= 3.6)
 Description: Pardus Gnome Shortcuts
  Shows the gnome shortcuts.
