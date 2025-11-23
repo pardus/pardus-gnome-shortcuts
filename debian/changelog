@@ -1,3 +1,13 @@
+pardus-gnome-shortcuts (0.1.1) unstable; urgency=medium
+
+  [ Osman Coskun ]
+  * chore(desktop): app name changed
+
+  [ Fatih Altun ]
+  * Update app icon
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Sun, 23 Nov 2025 15:57:10 +0300
+
 pardus-gnome-shortcuts (0.1.0) unstable; urgency=medium
 
   [ Osman Coskun ]
