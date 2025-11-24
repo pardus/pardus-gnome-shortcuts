@@ -31,3 +31,4 @@ install_data(['pardus-gnome-shortcuts','pardus-gnome-shortcuts.svg'], install_di
 
 # TRANSLATIONS
 subdir('data/po')
+subdir('debian')

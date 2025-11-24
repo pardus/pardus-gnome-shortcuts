@@ -109,17 +109,12 @@ class MainWindow(Adw.ApplicationWindow):
         self.update_ui()
 
     def get_app_version(self):
-        if apt:
-            try:
-                cache = apt.Cache()
-                pkg = cache.get("pardus-gnome-shortcuts")
-                if pkg and pkg.installed:
-                    return pkg.installed.version
-            except:
-                pass
+        try:
+            version = open(os.path.dirname(os.path.abspath(__file__)) + "/../__version__").readline().strip()
+            return version
+        except:
+            return "0.0.1"
         
-
-        return "0.0.1" # Final Fallback
 
     def show_about_dialog(self, widget):
         about = Adw.AboutWindow()
